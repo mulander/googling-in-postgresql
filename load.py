@@ -3,7 +3,7 @@
 import mailbox
 import psycopg2
 
-MDIR='/home/mulander/pg/var/vmail/tintagel.pl/mulander/Maildir/OpenBSD/Misc'
+MDIR='./var/vmail/tintagel.pl/mulander/Maildir/OpenBSD/Misc'
 
 index_email = """
     INSERT INTO
